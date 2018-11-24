@@ -203,6 +203,30 @@ client.on('message', message => {
     })
   }
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 client.on('message', (message) => {
     if (message.content.startsWith('Oban ')) {
       if(!message.member.hasPermission('BAN_MEMBERS')) return message.reply('هذا الخاصية للدارة فقط');
